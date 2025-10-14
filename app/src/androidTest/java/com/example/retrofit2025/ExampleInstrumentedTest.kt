@@ -20,5 +20,8 @@ class ExampleInstrumentedTest {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
         assertEquals("com.example.retrofit2025", appContext.packageName)
+        
+        // Prueba simple para verificar el contexto de la aplicación.
     }
 }
+
